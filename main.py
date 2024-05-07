@@ -5,6 +5,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
+import pyautogui
+
+def allowCert():
+    sleep(1)
+    width, height = pyautogui.size()
+    pyautogui.moveTo(width/2, height/2 + 100)
+    pyautogui.click()
 
 executable_path = "/Users/tonimoreira/Projects/contab-dte/chromedriver"
 os.environ["webdriver.chrome.driver"] = executable_path
@@ -42,6 +49,7 @@ for certIndex in range(0, len(certs)):
     cert = certs[certIndex]
     cert.click()
     driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/div/div/form/div[2]/div/div/div/button').click()
+    allowCert()
     companies = WebDriverWait(driver, 100).until(
         EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.SelecionarContratoHonorario__List > div'))
     )
@@ -55,13 +63,13 @@ for certIndex in range(0, len(certs)):
             selectButton = WebDriverWait(driver, 100).until(
                 EC.presence_of_element_located((By.XPATH, '//*[@id="root"]/div/div[2]/div/div/form/div[1]/div/div/div/div'))
             )
-
             selectButton.click()
             certs = WebDriverWait(driver, 100).until(
                 EC.presence_of_all_elements_located((By.XPATH, './/*[contains(concat(" ",normalize-space(@class)," ")," rc-virtual-list-holder-inner ")]/div'))
             )
             certs[certIndex].click()
             driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/div/div/form/div[2]/div/div/div/button').click()
+            allowCert()
             companies = WebDriverWait(driver, 100).until(
                 EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.SelecionarContratoHonorario__List > div'))
             )

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "77c46448ed9d0205ea418bb76b823032f8fc7dff9a9813398e5cb7bc04696981"
+            "sha256": "73b38caac54e9f1eb0819f37f01f2d62fdf6374b00084c4975f1da20888f08e9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -48,6 +48,12 @@
             "markers": "python_version >= '3.5'",
             "version": "==3.7"
         },
+        "mouseinfo": {
+            "hashes": [
+                "sha256:2c62fb8885062b8e520a3cce0a297c657adcc08c60952eb05bc8256ef6f7f6e7"
+            ],
+            "version": "==0.1.3"
+        },
         "outcome": {
             "hashes": [
                 "sha256:9dcf02e65f2971b80047b377468e72a268e15c0af3cf1238e6ff14f7f91143b8",
@@ -56,6 +62,82 @@
             "markers": "python_version >= '3.7'",
             "version": "==1.3.0.post0"
         },
+        "pyautogui": {
+            "hashes": [
+                "sha256:dd1d29e8fd118941cb193f74df57e5c6ff8e9253b99c7b04f39cfc69f3ae04b2"
+            ],
+            "index": "pypi",
+            "version": "==0.9.54"
+        },
+        "pygetwindow": {
+            "hashes": [
+                "sha256:17894355e7d2b305cd832d717708384017c1698a90ce24f6f7fbf0242dd0a688"
+            ],
+            "version": "==0.0.9"
+        },
+        "pymsgbox": {
+            "hashes": [
+                "sha256:2194227de8bff7a3d6da541848705a155dcbb2a06ee120d9f280a1d7f51263ff"
+            ],
+            "version": "==1.0.9"
+        },
+        "pyobjc-core": {
+            "hashes": [
+                "sha256:0153206e15d0e0d7abd53ee8a7fbaf5606602a032e177a028fc8589516a8771c",
+                "sha256:a70546246177c23acb323c9324330e37638f1a0a3d13664abcba3bb75e43012c",
+                "sha256:a9b5a215080d13bd7526031d21d5eb27a410780878d863f486053a0eba7ca9a5",
+                "sha256:b8eab50ce7f17017a0f1d68c3b7e88bb1bb033415fdff62b8e0a9ee4ab72f242",
+                "sha256:c9a7163aff9c47d654f835f80361c1b112886ec754800d34e75d1e02ff52c3d7",
+                "sha256:eb1ab700a44bcc4ceb125091dfaae0b998b767b49990df5fdc83eb58158d8e3f",
+                "sha256:f2115971463073426ab926416e17e5c16de5b90d1a1f2a2d8724637eb1c21308"
+            ],
+            "markers": "platform_system == 'Darwin'",
+            "version": "==10.2"
+        },
+        "pyobjc-framework-cocoa": {
+            "hashes": [
+                "sha256:0def036a7b24e3ae37a244c77bec96b7c9c8384bf6bb4d33369f0a0c8807a70d",
+                "sha256:18886d5013cd7dc7ecd6e0df5134c767569b5247fc10a5e293c72ee3937b217b",
+                "sha256:1ecf01400ee698d2e0ff4c907bcf9608d9d710e97203fbb97b37d208507a9362",
+                "sha256:5f47ecc393bc1019c4b47e8653207188df784ac006ad54d8c2eb528906ff7013",
+                "sha256:6383141379636b13855dca1b39c032752862b829f93a49d7ddb35046abfdc035",
+                "sha256:6a6042b7703bdc33b7491959c715c1e810a3f8c7a560c94b36e00ef321480797",
+                "sha256:f9227b4f271fda2250f5a88cbc686ff30ae02c0f923bb7854bb47972397496b2"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==10.2"
+        },
+        "pyobjc-framework-quartz": {
+            "hashes": [
+                "sha256:2a74d00e933c1e1a1820839323dc5cf252bee8bb98e2a298d961f7ae7905ce71",
+                "sha256:3e8e33246d966c2bd7f5ee2cf3b431582fa434a6ec2b6dbe580045ebf1f55be5",
+                "sha256:520c8031b2389110f80070b078dde1968caaecb10921f8070046c26132ac9286",
+                "sha256:9b947e081f5bd6cd01c99ab5d62c36500d2d6e8d3b87421c1cbb7f9c885555eb",
+                "sha256:bc0ab739259a717d9d13a739434991b54eb8963ad7c27f9f6d04d68531fb479b",
+                "sha256:c6ca490eff1be0dd8dc7726edde79c97e21ec1afcf55f75962a79e27b4eb2961",
+                "sha256:d3d54d9fa50de09ee8994248151def58f30b4738eb20755b0bdd5ee1e1f5883d"
+            ],
+            "markers": "platform_system == 'Darwin'",
+            "version": "==10.2"
+        },
+        "pyperclip": {
+            "hashes": [
+                "sha256:105254a8b04934f0bc84e9c24eb360a591aaf6535c9def5f29d92af107a9bf57"
+            ],
+            "version": "==1.8.2"
+        },
+        "pyrect": {
+            "hashes": [
+                "sha256:f65155f6df9b929b67caffbd57c0947c5ae5449d3b580d178074bffb47a09b78"
+            ],
+            "version": "==0.2.0"
+        },
+        "pyscreeze": {
+            "hashes": [
+                "sha256:74098ad048e76a6231dcfa6243343af94459b8c829f9ccb7a44a5d3b147a67d1"
+            ],
+            "version": "==0.1.30"
+        },
         "pysocks": {
             "hashes": [
                 "sha256:08e69f092cc6dbe92a0fdd16eeb9b9ffbc13cadfe5ca4c7bd92ffb078b293299",
@@ -63,6 +145,20 @@
                 "sha256:3f8804571ebe159c380ac6de37643bb4685970655d3bba243530d6558b799aa0"
             ],
             "version": "==1.7.1"
+        },
+        "pytweening": {
+            "hashes": [
+                "sha256:243318b7736698066c5f362ec5c2b6434ecf4297c3c8e7caa8abfe6af4cac71b"
+            ],
+            "version": "==1.2.0"
+        },
+        "rubicon-objc": {
+            "hashes": [
+                "sha256:3d77a5b2d10cb1e49679aa90b7824b46f67b3fd636229aa4a1b902d24aec6a58",
+                "sha256:c351b3800cf74c8c23f7d534f008fd5de46c63818de7a44de96daffdb3ed8b8c"
+            ],
+            "markers": "platform_system == 'Darwin'",
+            "version": "==0.4.9"
         },
         "selenium": {
             "hashes": [
