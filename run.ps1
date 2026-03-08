@@ -1,5 +1,7 @@
 Import-Module PKI
-$diretorio = "C:\Users\nataniel\Downloads\CERTIFICADOS\CERTIFICADOS"
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$PSDefaultParameterValues['*:Encoding'] = 'utf8' 
+$diretorio = "S:\Fiscal\2026\AUTOMAÇÕES\- Certificados DTE"
 
 function Install-Certificates {
     param (

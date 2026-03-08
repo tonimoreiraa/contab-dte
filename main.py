@@ -14,7 +14,7 @@ def allowCert():
     pyautogui.moveTo(width/2, height/2 + 100)
     pyautogui.click()
 
-executable_path = "C:\\Users\\nataniel\\Desktop\\AutomacoesDPI\\contab-dte-main\\chromedriver.exe"
+executable_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "chromedriver.exe")
 
 os.environ["webdriver.chrome.driver"] = executable_path
 
