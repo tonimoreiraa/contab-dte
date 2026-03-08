@@ -42,7 +42,7 @@ for ($i = 0; $i -lt $arquivosPFX.Count; $i += $batchSize) {
 
     Install-Certificates -certificates $batch
 
-    $exitCode = Run-PythonScript -scriptPath "C:\Users\nataniel\Desktop\AutomacoesDPI\contab-dte-main\main.py"
+    $exitCode = Run-PythonScript -scriptPath "$PSScriptRoot\main.py"
 
     Write-Host "Python script exited with code $exitCode."
 
